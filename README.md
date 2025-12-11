@@ -8,6 +8,8 @@
 		<li> Don't delete repositories </li>
 		<li> Don't push anything you wouldn't do in 42</li>
 		<li> Follow 42 rules and regulations </li>
+		<li> Do not plug in anything to 42 computers </li>
+		<li> Power off the circuit before connecting/disconnecting components </li>
 	</ol>
 	
 </div>
