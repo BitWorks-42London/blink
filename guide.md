@@ -1,13 +1,13 @@
 # Platformio installation guide
    We need a guide here...   
    
-# Raspberry Pi/Arduino connection, project setup   
-1. cd to sketches directory/blink and create a new repo:
-   ```mkdir your_intra_name; cd $_```
+# Raspberry Pi/Arduino connection, project setup  
+1. On your local machine create a directory sketches/blink/your_intra_name:  
+   ```mkdir -p sketches/blink/your_intra_name; cd $_```   
 2. Create a new embedded development project with PlatformIO via the pio command-line tool and specify which tool would you like to use - vim or vscode:   
-  if vim:  
+  - if vim:  
     ```pio project init --board nanoatmega328new --ide vim --sample-code```     
-  if vscode:   
+  - if vscode:   
     ```pio project init --board nanoatmega328new --ide vscode --sample-code```     
 3. Approve the project initalisation - congrats. you have created your first PlatfromIO project!
 4. Got your src/main.cpp and copy in syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html
