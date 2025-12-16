@@ -59,21 +59,22 @@ You should get a success message and your arduino should blink. Well done!
  wherever you need it in your circuit. Usually they will be labeled with a ‘+’ and a ‘-’ and have a red and blue or black stripe,  
  to indicate the positive and negative side.
  It is important to be aware that the power rails on either side are not connected, so if you want the same power source on both sides,   
- you will need to connect the two sides with some jumper wires.  
+ you will need to connect the two sides with some jumper wires.   
  
 
- 5. Overview of connecting individual parts onto the breadboard:
- - Arduino needs to be placed exactly in the middle of the horizontal rails, joining the two unconnected parts of the breadboard.  
+  5. Overview of connecting individual parts onto the breadboard:
+ - the Arduino needs to be placed exactly in the middle of the horizontal rails, joining the two unconnected parts of the breadboard.  
  - We need to find the ground pin && use the blue wire to connect it to the negative vertical rail.
- - Next, we need to input diode, the longer leg always facing the Arduino.  
+ - Next, we need to input the diode, the longer leg always facing the Arduino.  
  - The shorter leg of the diode needs to be grounded, and we will use a resistor to connect it to the negative vertical rail.  
  - We need to identify the Arduino pin which is responsible for providing the power, and connect the jellow jumper Dupont wire  
  between that pin and the shorter leg of the diode.
  - The button needs to be placed exactly in the middle, just like we have done it with the Arduino.    
  - Now, we need to identify the general-purpose I/O pin on the Arduino used for input/output. We need to use the red, long jumper wire  
  between that pin and the button upper leg (the leg closer to the Arduino).  
- - We also need to use a resistor, in the exact same pin (Arduino general purpose I/O) && connect it to the negative vertical rail of the breadboard.
- - Another step is to identify the RESET pin on the Arduino && use the red wire to connect it to the lower leg of the button (further away from the Arduino).  
+ - We also need to use the resistor, in the exact same pin (Arduino general purpose I/O) && connect it to the negative vertical rail of the breadboard.
+ - Another step is to identify the RESET pin on the Arduino && use the red wire to connect it to the lower leg of the button (further from the Arduino).  
+ 
  
 # Program your Arduino
 1. Edit your program on your local machine in src/main.cpp  
