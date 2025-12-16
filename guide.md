@@ -53,14 +53,14 @@ You should get a success message and your arduino should blink. Well done!
 
  4. The anatomy of a breadboard
  <img src="https://cdn.sparkfun.com/assets/3/d/f/a/9/518c0b34ce395fea62000002.jpg" width="600" height="600">  
- Aside from horizontal rows, breadboards usually have what are called power rails that run vertically along the sides.   
- These power rails are metal strips that are identical to the ones that run horizontally, except they are, typically*, all connected.   
- When building a circuit, you tend to need power in lots of different places. The power rails give you lots of easy access to power  
- wherever you need it in your circuit. Usually they will be labeled with a ‘+’ and a ‘-’ and have a red and blue or black stripe,  
- to indicate the positive and negative side.
- It is important to be aware that the power rails on either side are not connected, so if you want the same power source on both sides,   
- you will need to connect the two sides with some jumper wires.   
- 
+    Aside from horizontal rows, breadboards usually have what are called power rails that run vertically along the sides.   
+    These power rails are metal strips that are identical to the ones that run horizontally, except they are, typically*, all connected.   
+    When building a circuit, you tend to need power in lots of different places. The power rails give you lots of easy access to power  
+    wherever you need it in your circuit. Usually they will be labeled with a ‘+’ and a ‘-’ and have a red and blue or black stripe,  
+    to indicate the positive and negative side.
+    It is important to be aware that the power rails on either side are not connected, so if you want the same power source on both sides,   
+    you will need to connect the two sides with some jumper wires.   
+
 
   5. Overview of connecting individual parts onto the breadboard:
  - the Arduino needs to be placed exactly in the middle of the horizontal rails, joining the two unconnected parts of the breadboard.  
