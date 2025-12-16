@@ -16,7 +16,7 @@
   ```ssh pi@your-pi-ip-address```
 8. Go to bitwise/blink and create a directory with your intra name;    
 NOTE: since there are two arduinos per each raspberry pi we need to specify which: ```/dev/ttyUSB0``` or ```/dev/ttyUSB1```  
-then run the following for example:
+then run the following for example:   
   ```pio run -t upload --upload-port pio@192.168.1.42:/dev/ttyUSB1```   
 You should get a success message and your arduino should blink. Well done!  
 10. Now you can start developing your board and programming. Remember - always unplug arduino first!  
@@ -26,12 +26,12 @@ You should get a success message and your arduino should blink. Well done!
 # Program your arduino
 1. Edit your program on your local machine in src/main.cpp  
 2. Once you completed the program on the local machine, you need to synchronise it with your arduino via:   
-  ```rsync -avp . pi@your_pi_ip_address:bitworks/your_intra_name --mkpath```
-  this does the following:
-   - This copies your local PlatformIO project to the Raspberry Pi && into into ~/bitworks/your_intra_name  
+  ```rsync -avp . pi@your_pi_ip_address:bitworks/your_intra_name --mkpath```   
+  this does the following:  
+   - This copies your local PlatformIO project to the Raspberry Pi && into ~/bitworks/your_intra_name  
 3. Then you need to trigger the upload from the Pi through the following steps:
   ```ssh pi@your_pi_ip_address```  
   ```cd bitworks/your_intra_name```  
-  ```pio run -t upload --upload-port pio@192.168.1.42:/dev/ttyUSB1```
+  ```pio run -t upload --upload-port pio@192.168.1.42:/dev/ttyUSB1```   
 4. And there was the blink! Well done!  
 
