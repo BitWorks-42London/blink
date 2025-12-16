@@ -40,6 +40,7 @@ You should get a success message and your arduino should blink. Well done!
 - button  
 - diode   
 - 2 resistors  
+- breadboard  
 
 3. Kit item description:
  - The Arduino Nano is a small, versatile, open-source microcontroller board based on the ATmega328P.  
@@ -47,7 +48,12 @@ You should get a success message and your arduino should blink. Well done!
  - jump wires - same as the Dupont wire, easy to connect and disconnect, convenient for insertion into your breadboard.  
  - button will allow you to test whetehr the program you wrote performs as it should - diode blinks or switches off.  
  - diode is a light bead.  
- - resistors are fundamental passive components that limit electrical current flow, divide voltages, and adjust signal levels in circuits, measured in Ohms (Ω).   
+ - resistors are fundamental passive components that limit electrical current flow, divide voltages, and adjust signal levels in circuits, measured in Ohms (Ω).  
+ - a breadboard is a reusable, solderless platform for building and testing temporary electronic circuits, featuring a grid of holes with internal metal clips that connect components like resistors, LEDs, and jumper wires, making it ideal for prototyping and education before creating permanent circuits.   
+
+ 4. The anatomy of a breadboard
+ ![breadboard.jpg](https://cdn.sparkfun.com/assets/3/d/f/a/9/518c0b34ce395fea62000002.jpg)  
+ Aside from horizontal rows, breadboards usually have what are called power rails that run vertically along the sides.
  
 # Program your Arduino
 1. Edit your program on your local machine in src/main.cpp  
