@@ -46,8 +46,8 @@ You should get a success message and your arduino should blink. Well done!
  - The Arduino Nano is a small, versatile, open-source microcontroller board based on the ATmega328P.  
  - yellow Dupont wire connector used for prototyping and electronic projects.
  - jump wires - same as the Dupont wire, easy to connect and disconnect, convenient for insertion into your breadboard.  
- - button will allow you to test whether the program you wrote performs as it should - diode blinks or switches off.  
- - diode is a light bead.  
+ - buttons are the gateway to the user input, allows to interact with current and guide it depending on your programming.  
+ - diodes are electronics components, responding to the changes in current through lighting up.  
  - resistors are fundamental passive components that limit electrical current flow, divide voltages, and adjust signal levels in circuits, measured in Ohms (Ω).  
  - a breadboard is a reusable, solderless platform for building and testing temporary electronic circuits, featuring a grid of holes with internal metal clips that connect components like resistors, LEDs, and jumper wires, making it ideal for prototyping and education before creating permanent circuits.   
 
@@ -59,14 +59,14 @@ You should get a success message and your arduino should blink. Well done!
  wherever you need it in your circuit. Usually they will be labeled with a ‘+’ and a ‘-’ and have a red and blue or black stripe,  
  to indicate the positive and negative side.
  It is important to be aware that the power rails on either side are not connected, so if you want the same power source on both sides,   
- you will need to connect the two sides with some jumper wires. Keep in mind that the markings are there just as a reference.  
- There is no rule that says you have to plug power into the '+' rail and ground into the '-' rail, though it's good practice to keep everything in order.  
+ you will need to connect the two sides with some jumper wires.  
  
 
  5. Overview of connecting individual parts onto the breadboard:
  - Arduino needs to be placed exactly in the middle of the horizontal rails, joining the two unconnected parts of the breadboard.  
  - We need to find the ground pin && use the blue wire to connect it to the negative vertical rail.
- - We need to input diode, the longer leg always facing the Arduino.  
+ - Next, we need to input diode, the longer leg always facing the Arduino.  
+ - The shorter leg of the diode needs to be grounded, and we will use a resistor to connect it to the negative vertical rail.  
  - We need to identify the Arduino pin which is responsible for providing the power, and connect the jellow jumper Dupont wire  
  between that pin and the shorter leg of the diode.
  - The button needs to be placed exactly in the middle, just like we have done it with the Arduino.    
