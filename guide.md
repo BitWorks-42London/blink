@@ -34,13 +34,21 @@ You should get a success message and your arduino should blink. Well done!
 ![pinout.png](https://lastminuteengineers.com/wp-content/uploads/arduino/Arduino-Nano-Pinout.png)   
 
 2. In your kit you have:  
-- Arduino  
-- yellow jump wire    
+- Arduino Nano  
+- yellow jump Dupont wire    
 - 5 red mini jump wires, 3 red long jump wires, 3 blue medium jump wires  
 - button  
 - diode   
 - 2 resistors  
 
+3. Kit item description:
+ - The Arduino Nano is a small, versatile, open-source microcontroller board based on the ATmega328P.  
+ - yellow Dupont wire connector used for prototyping and electronic projects.
+ - jump wires - same as the Dupont wire, easy to connect and disconnect, convenient for insertion into your breadboard.  
+ - button will allow you to test whetehr the program you wrote performs as it should - diode blinks or switches off.  
+ - diode is a light bead.  
+ - resistors are fundamental passive components that limit electrical current flow, divide voltages, and adjust signal levels in circuits, measured in Ohms (Ω).   
+ 
 # Program your Arduino
 1. Edit your program on your local machine in src/main.cpp  
 2. Once you completed the program on the local machine, you need to synchronise it with your arduino via:   
