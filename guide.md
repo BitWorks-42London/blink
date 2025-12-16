@@ -16,7 +16,7 @@
   ```ssh pi@your-pi-ip-address```
 7. Save your public key under the list of existing keys in .ssh/authorised_keys file  
    Now you will be able to log in without the password.  
-8. Go to bitwise/blink and create a directory with your intra name.    
+8. Go to bitworks/blink and create a directory with your intra name.    
 NOTE: since there are two arduinos per each raspberry pi we need to specify which: ```/dev/ttyUSB0``` or ```/dev/ttyUSB1```  
 then run the following if you are using /dev/ttyUSB0:   
   ```pio run -t upload --upload-port pio@your_pi_ip_address:/dev/ttyUSB0```   
@@ -26,19 +26,19 @@ You should get a success message and your arduino should blink. Well done!
 ```diff 
 ! Remember - when working on your breadboard you need to unplug your arduino from the raspberry pi,   
 ! the cable needs to be detached at the raspberry pi side first!
-! And when you plug the data cable back, start with connecting it to arduino and then into the raspberry pi.
+! And when you plug the data cable back, start with connecting it to the arduino and then into the raspberry pi.
 ```  
 
 # Arduino board development
-   We need a guid here...   
+   We need a guide here...   
 
 # Program your arduino
 1. Edit your program on your local machine in src/main.cpp  
 2. Once you completed the program on the local machine, you need to synchronise it with your arduino via:   
   ```rsync -avp . pi@your_pi_ip_address:bitworks/your_intra_name --mkpath```   
   this does the following:  
-   - This copies your local PlatformIO project to the Raspberry Pi && into ~/bitworks/your_intra_name  
-3. Then you need to trigger the upload from the Pi through the following steps:
+   - Copies your local PlatformIO project to the Raspberry Pi && into ~/bitworks/your_intra_name  
+3. Then you need to trigger the upload from the Raspberry Pi through the following steps:
   ```ssh pi@your_pi_ip_address```  
   ```cd bitworks/your_intra_name```  
   NOTE: Remember which arduino you are using:  
