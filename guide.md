@@ -10,7 +10,7 @@
   - if vscode:   
     ```pio project init --board nanoatmega328new --ide vscode --sample-code```     
 3. Approve the project initalisation - congrats. you have created your first PlatfromIO project!
-4. Got your src/main.cpp and copy in syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html
+4. Got your src/main.cpp and copy in syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html#codecell4   
 5. Go to your public key and copy the content
 6. Log into your raspberry pi via ssh, the password is: 123456   
   ```ssh pi@your-pi-ip-address```
@@ -21,7 +21,13 @@ NOTE: since there are two arduinos per each raspberry pi we need to specify whic
 then run the following if you are using /dev/ttyUSB0:   
   ```pio run -t upload --upload-port pio@your_pi_ip_address:/dev/ttyUSB0```   
 You should get a success message and your arduino should blink. Well done!  
-10. Now you can start developing your board and programming. Remember - always unplug arduino first!  
+10. Now you can start developing your board and write a program.   
+
+```diff 
+! Remember - when working on your breadboard you need to unplug your arduino from the raspberry pi,   
+! the cable needs to be detached at the raspberry pi side first!
+! And when you plug the data cable back, start with connecting it to arduino and then into the raspberry pi.
+```  
 
 # Arduino board development
    We need a guid here...   
