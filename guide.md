@@ -1,14 +1,15 @@
 # Platformio installation guide
-To install platform io:
-```pip install platformio```  
 
 
-
-You will also need to add .local/bin to PATH:
+Firstly you will also need to add .local/bin to PATH:
 - Open your shells config file (for bash thats `.bashrc`, for zsh thats `.zshrc`, etc.) and add the following line:
 ```bash
 export PATH=$PATH:$HOME/.local/bin
 ```
+
+Then to install platform io:
+```pip install platformio```  
+
    
 # Raspberry Pi/Arduino connection, project setup  
 1. On your local machine create a directory sketches/blink:  
