@@ -2,7 +2,7 @@
 ```pip install platformio```  
    
 # Raspberry Pi/Arduino connection, project setup  
-1. On your local machine create a directory sketches/blink/your_intra_name:  
+1. On your local machine create a directory sketches/blink:  
    ```mkdir -p sketches/blink; cd $_```   
 2. Create a new embedded development project with PlatformIO via the pio command-line tool and specify which tool would you like to use - vim or vscode:   
   - if vim:  
