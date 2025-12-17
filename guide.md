@@ -19,7 +19,7 @@ Then to install platform io:
     ```pio project init --board nanoatmega328new --ide vim --sample-code```     
   - if vscode:   
     ```pio project init --board nanoatmega328new --ide vscode --sample-code```     
-3. Approve the project initalisation - congrats. you have created your first PlatfromIO project!
+3. Approve the project initialisation - congrats. you have created your first PlatfromIO project!
 4. Got your src/main.cpp and copy in syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html#codecell4   
 5. Go to your public key and copy the content
 6. Log into your raspberry pi via ssh, the password is: 123456   
