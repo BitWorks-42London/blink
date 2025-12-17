@@ -26,7 +26,7 @@
 
 # Arduino board development
 1. Arduino board pinout:   
-![pinout.png](https://lastminuteengineers.com/wp-conhttps://docs.arduino.cc/language-reference/?_gl=1*1nvku0k*_up*MQ..*_ga*MTcyMTQxNDg3OS4xNzY1OTc2OTc5*_ga_NEXN8H46L5*czE3NjU5NzY5NzYkbzEkZzEkdDE3NjU5NzcyNTMkajI3JGwwJGg0OTk2ODUyNg..#functionstent/uploads/arduino/Arduino-Nano-Pinout.png)   
+![pinout.png](https://lastminuteengineers.com/wp-content/uploads/arduino/Arduino-Nano-Pinout.png)   
 
 2. In your kit you have:  
 - Arduino Nano  
