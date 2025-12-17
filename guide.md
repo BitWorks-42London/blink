@@ -1,5 +1,5 @@
-# Platformio installation guide
-   We need a guide here...   
+# Platformio installation guide   
+```pip install platformio```  
    
 # Raspberry Pi/Arduino connection, project setup  
 1. On your local machine create a directory sketches/blink/your_intra_name:  
