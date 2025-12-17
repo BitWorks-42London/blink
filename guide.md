@@ -20,11 +20,11 @@ Then to install platform io:
   - if vscode:   
     ```pio project init --board nanoatmega328new --ide vscode --sample-code```     
 3. Approve the project initialisation - congrats. you have created your first PlatfromIO project!
-4. Got your src/main.cpp and copy in syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html#codecell4   
+4. Got your src/main.cpp and copy in the syntax from the following source: https://docs.platformio.org/en/latest/core/quickstart.html#codecell4   
 5. Go to your public key and copy the content
 6. Log into your raspberry pi via ssh, the password is: 123456   
   ```ssh pi@your-pi-ip-address```
-7. Save your public key under the list of existing keys in .ssh/authorized_keys file  
+7. Save your public key under the list of existing keys in the .ssh/authorized_keys file  
    Now you will be able to log in without the password. 
 8. Now you can start developing your board and write a program.   
 
@@ -40,7 +40,7 @@ Then to install platform io:
 
 2. In your kit you have:  
 - Arduino Nano  
-- yellow jump Dupont wire    
+- yellow Dupont jumper wire    
 - 5 red mini jump wires, 3 red long jump wires, 3 blue medium jump wires  
 - button  
 - diode   
@@ -51,8 +51,8 @@ Then to install platform io:
  - The Arduino Nano is a small, versatile, open-source microcontroller board based on the ATmega328P.  
  - yellow Dupont wire connector used for prototyping and electronic projects.
  - jump wires - same as the Dupont wire, easy to connect and disconnect, convenient for insertion into your breadboard.  
- - buttons are the gateway to the user input, allows to interact with current and guide it depending on your programming.  
- - diodes are electronics components, responding to the changes in current through lighting up.  
+ - buttons are the gateway to user input, allows to interact with current and guide it depending on your programming.  
+ - diodes are electronic components, responding to the changes in current by lighting up.  
  - resistors are fundamental passive components that limit electrical current flow, divide voltages, and adjust signal levels in circuits, measured in Ohms (Ω).  
  - a breadboard is a reusable, solderless platform for building and testing temporary electronic circuits, featuring a grid of holes with internal metal clips that connect components like resistors, LEDs, and jumper wires, making it ideal for prototyping and education before creating permanent circuits.   
 
@@ -72,8 +72,8 @@ Then to install platform io:
  - We need to find the ground pin && use the blue wire to connect it to the negative vertical rail.
  - Next, we need to input the diode, the longer leg always facing the Arduino.  
  - The shorter leg of the diode needs to be grounded, and we will use a resistor to connect it to the negative vertical rail.  
- - We need to identify the Arduino pin which is general purpose I/O (later, while coding we will define it as an output pin), and connect the jellow jumper Dupont wire between that pin and the longer leg of the diode.   
- - The button needs to be placed exactly in the middle, just like we have done it with the Arduino.    
+ - We need to identify the Arduino pin which is general purpose I/O (later, while coding we will define it as an output pin), and connect the Yellow Dupont jumper wire between that pin and the longer leg of the diode.   
+ - The button needs to be placed exactly in the middle, just like we did with the Arduino.    
  - Now, we need to identify the general-purpose I/O pin on the Arduino used for input/output. We need to use the red, long jumper wire between that pin and the button upper leg (the leg closer to the Arduino).     
  - We also need to use the resistor, in the exact same pin (Arduino general purpose I/O) && connect it to the negative vertical rail of the breadboard.
  - Another step is to identify the 5V pin (power pin) on the Arduino && use the red wire to connect it to the lower leg of the button (further from the Arduino).  
