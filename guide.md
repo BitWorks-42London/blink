@@ -72,7 +72,7 @@ Then to install platform io:
  - We need to find the ground pin && use the blue wire to connect it to the negative vertical rail.
  - Next, we need to input the diode, the longer leg always facing the Arduino.  
  - The shorter leg of the diode needs to be grounded, and we will use a resistor to connect it to the negative vertical rail.  
- - We need to identify the Arduino pin which is general purpose I/O (later, while coding we will define it as an output pin), and connect the jellow jumper Dupont wire between that pin and the shorter leg of the diode.   
+ - We need to identify the Arduino pin which is general purpose I/O (later, while coding we will define it as an output pin), and connect the jellow jumper Dupont wire between that pin and the longer leg of the diode.   
  - The button needs to be placed exactly in the middle, just like we have done it with the Arduino.    
  - Now, we need to identify the general-purpose I/O pin on the Arduino used for input/output. We need to use the red, long jumper wire between that pin and the button upper leg (the leg closer to the Arduino).     
  - We also need to use the resistor, in the exact same pin (Arduino general purpose I/O) && connect it to the negative vertical rail of the breadboard.
