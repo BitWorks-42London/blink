@@ -24,7 +24,7 @@ Then to install platform io:
 5. Go to your public key and copy the content
 6. Log into your raspberry pi via ssh, the password is: 123456   
   ```ssh pi@your-pi-ip-address```
-7. Save your public key under the list of existing keys in .ssh/authorised_keys file  
+7. Save your public key under the list of existing keys in .ssh/authorized_keys file  
    Now you will be able to log in without the password. 
 8. Now you can start developing your board and write a program.   
 
