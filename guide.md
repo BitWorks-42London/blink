@@ -94,7 +94,7 @@ NOTE: useful functions from the Arduino ecosystem:
    - Copies your local PlatformIO project to the Raspberry Pi && into ~/bitworks/your_intra_name  
 3. Then you need to trigger the upload from the Raspberry Pi through the following steps:
  - ```ssh pi@your_pi_ip_address```
- -  ```cd bitworks/your_intra_name```  
+ -  ```cd bitworks/your_intra_name/blink```  
 NOTE: Remember which Arduino you are using:  
  -  ```pio run -t upload --upload-port /dev/ttyUSB0```   
 4. And there was the blink! Well done!  
